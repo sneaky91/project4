@@ -1,0 +1,159 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(181, 179, 179);
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+header img {
+    width: 120px;
+    height: 113px;
+}
+
+.button {
+    background-color: #000000;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 15px;
+  
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+article {
+    color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    text-align:center;
+}
+
+article p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #000;
+}
+
+article img {
+    float: right;
+}
+
+
+.article-but {
+    text-decoration: none;
+    background: #050606;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
+}
+
+footer {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    padding: 45px 0px 45px 70px;
+    margin-top: 20px;
+}
+
+footer a {
+    margin-right: 50px;
+}
+
+footer p {
+    font-size: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about li {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.about img {
+    border: 5px solid #fff;
+    width: 385px;
+    height: 385px;
+    margin-left: 30px;
+}
+
+
+.info2  {
+    display: flex;
+    justify-content: left;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: darkgrey;
+    margin-bottom: 20px;
+}
+
+.custom {
+    list-style:url(https://learn.logikaschool.com/uploads/student/5262983/680bda3d2ce7b.svg);
+}
